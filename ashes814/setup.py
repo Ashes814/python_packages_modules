@@ -9,8 +9,9 @@ def readme_file():
 
 setup(name='ashes814', version='1.0.0',
       description='It is a really niubi package!',
-      packages=['ashes814'], py_modules=['tool'], author='Ashes',
-      author_email='1534661514@qq.com', long_description=readme_file())
+      packages=['ashes814'], py_modules=['tool'], author='Ashes', url='https://github.com/Ashes814',
+      author_email='1534661514@qq.com', long_description=readme_file(),
+      license='MIT')
 # long_description = '''this is a verbose lib bala,balabalabalabalabala'
 #                    balabalabalabalabalabalabalabalabalabalabala
 #                    balabalabalabalabalabalabalabalabalabalabalabalabala
